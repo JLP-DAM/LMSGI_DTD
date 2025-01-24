@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cataleg>
+    <llista_actors>
+        <actor id="1">
+            <nom>Viktor</nom>
+            <edat>43</edat>
+        </actor>
+    </llista_actors>
+</cataleg>
