@@ -4,7 +4,52 @@
     <llista_actors>
         <actor id="1">
             <nom>Viktor</nom>
-            <edat>43</edat>
+            <edat>53</edat>
         </actor>
+
+        <actor id="2">
+            <nom>Laia</nom>
+        </actor>
+
+        <actor id="3">
+            <nom>Jose</nom>
+            <edat>21</edat>
+        </actor>
+        
     </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id="1">
+            <titol idioma="català">Dibuixos Animats i Cereal</titol>
+            <director>Carlos Perez</director>
+            <any>2004</any>
+            <actors>
+                <actor_ref ref="2"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="2">
+            <titol idioma="castellà">Viernes Negro</titol>
+            <director>Carla Suárez</director>
+            <any>1995</any>
+            <actors>
+                <actor_ref ref="1"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id="3">
+            <titol idioma="anglès">Man at the Garden</titol>
+            <director>Mar González</director>
+            <any>2025</any>
+            <actors>
+                <actor_ref ref="3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="3"/>
+        <recomanacio ref="1"/>
+        <recomanacio ref="2"/>
+    </llista_recomanacions_pelicules>
 </cataleg>
